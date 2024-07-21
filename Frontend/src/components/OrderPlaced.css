@@ -1,0 +1,23 @@
+.order-placed {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  height: 100%;
+  align-items: center;
+}
+
+.order-placed > h1 {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.order-placed > button {
+  margin-bottom: 50px;
+  background: #d7e4fe;
+  border: 1px solid;
+  border-color: #264770;
+  color: #264770;
+  cursor: pointer;
+  border-radius: 3px;
+  padding: 3px 5px;
+}

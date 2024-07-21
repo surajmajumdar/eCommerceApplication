@@ -1,0 +1,76 @@
+.user-profile {
+  background-color: white;
+  height: 150vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user-profile-container {
+  margin-top: 60px;
+  width: 600px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  padding: 20px;
+}
+
+.user-profile-container > h1 {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.user-profile-container > form > h5 {
+  margin-bottom: 5px;
+}
+
+.user-profile-container > form > input {
+  height: 30px;
+  margin-bottom: 10px;
+  background-color: white;
+  width: 98%;
+  padding-left: 8px;
+}
+
+.user-profile-container > form > select {
+  height: 36px;
+  margin-bottom: 10px;
+  border: 2px solid black;
+  background-color: white;
+  width: 100%;
+  padding-left: 8px;
+}
+
+.user-profile-container > p {
+  margin-top: 15px;
+  font-size: 12px;
+}
+
+.save-changes-button {
+  background: #d7e4fe;
+  border-radius: 2px;
+  width: 100%;
+  height: 30px;
+  border: 1px solid;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  color: #264770;
+  border-color: #264770;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .user-profile-container {
+    width: 80%;
+    padding: 20px;
+  }
+
+  .user-profile-container > form > input {
+    width: 98%;
+  }
+  .user-profile-container > form > select {
+    width: 100%;
+  }
+}

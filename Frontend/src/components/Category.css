@@ -1,0 +1,90 @@
+.category {
+  display: flex;
+  padding: 20px;
+  height: max-content;
+}
+
+.category-left {
+  background: white;
+  margin-top: 19px;
+  margin-left: 10px;
+  margin-right: 5px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  padding-bottom: 50px;
+  border-radius: 10px;
+}
+
+.category-left > div {
+  margin: 10px 60px 10px 30px;
+}
+
+.category-right > h2 {
+  margin-left: 18px;
+  background: white;
+  height: 50px;
+  align-items: center;
+  text-align: center;
+}
+
+.categories-container {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+.categories-container > button {
+  border: none;
+  background: none;
+  margin: 10px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.category-row {
+  display: flex;
+  z-index: 1;
+  margin-left: 9px;
+  justify-content: space-between;
+}
+
+.category-price-filter > p {
+  font-size: 14px;
+}
+
+.category-price-filter > input {
+  padding: 5px;
+}
+
+.category-sort-filter > select {
+  padding: 5px;
+  width: 100%;
+  margin-bottom: 240px;
+}
+
+.pagination {
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+.pagination > button:not(:disabled) {
+  padding: 4px;
+  width: 120px;
+  color: white;
+  background-color: #264770;
+  border: 1px solid #e7efff;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.pagination > button:disabled {
+  background-color: #f3f3f3;
+  color: #999;
+  border: 1px solid #999;
+  padding: 4px;
+  width: 120px;
+  border-radius: 4px;
+}
